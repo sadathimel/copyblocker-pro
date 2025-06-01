@@ -1,0 +1,88 @@
+# Translation of CopyBlocker Pro in Bangla
+# Copyright (C) 2025 CopyBlocker Pro
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: CopyBlocker Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: sadathossen.cse@gmail.com\n"
+"POT-Creation-Date: 2025-06-01 14:00+0600\n"
+"PO-Revision-Date: 2025-06-01 14:00+0600\n"
+"Last-Translator: sadathimel <sadathossen.cse@gmail.com>\n"
+"Language-Team: Bangla <sadathossen.cse@gmail.com>\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: copyblocker-pro.php:20
+msgid "CopyBlocker Pro"
+msgstr "কপিব্লকার প্রো"
+
+#: copyblocker-pro.php:99
+msgid "Copying is disabled!"
+msgstr "কপি করা নিষিদ্ধ!"
+
+#: copyblocker-pro.php:100
+msgid "Developer tools are disabled!"
+msgstr "ডেভেলপার টুল নিষিদ্ধ!"
+
+#: includes/settings.php:13
+msgid "CopyBlocker Pro Settings"
+msgstr "কপিব্লকার প্রো সেটিংস"
+
+#: includes/settings.php:29
+msgid "Settings saved successfully!"
+msgstr "সেটিংস সফলভাবে সংরক্ষিত!"
+
+#: includes/settings.php:37
+msgid "Disable Text Selection"
+msgstr "টেক্সট নির্বাচন নিষিদ্ধ করুন"
+
+#: includes/settings.php:38
+msgid "Prevents users from selecting text on your website."
+msgstr "আপনার ওয়েবসাইটে টেক্সট নির্বাচন করা থেকে ব্যবহারকারীদের বিরত রাখে।"
+
+#: includes/settings.php:43
+msgid "Block Copy (Ctrl+C / Cmd+C)"
+msgstr "কপি ব্লক করুন (Ctrl+C / Cmd+C)"
+
+#: includes/settings.php:44
+msgid "Disables copying text using keyboard shortcuts."
+msgstr "কীবোর্ড শর্টকাট ব্যবহার করে টেক্সট কপি করা নিষিদ্ধ করে।"
+
+#: includes/settings.php:49
+msgid "Block Select All (Ctrl+A / Cmd+A)"
+msgstr "সব নির্বাচন ব্লক করুন (Ctrl+A / Cmd+A)"
+
+#: includes/settings.php:50
+msgid "Prevents selecting all content with keyboard shortcuts."
+msgstr "কীবোর্ড শর্টকাট দিয়ে সমস্ত কন্টেন্ট নির্বাচন করা থেকে বিরত রাখে।"
+
+#: includes/settings.php:55
+msgid "Block Developer Tools (Ctrl+Shift+I / Cmd+Opt+I)"
+msgstr "ডেভেলপার টুল ব্লক করুন (Ctrl+Shift+I / Cmd+Opt+I)"
+
+#: includes/settings.php:56
+msgid "Attempts to block access to browser developer tools."
+msgstr "ব্রাউজার ডেভেলপার টুলে অ্যাক্সেস ব্লক করার চেষ্টা করে।"
+
+#: includes/settings.php:61
+msgid "Block Right-Click Context Menu"
+msgstr "ডান-ক্লিক কনটেক্সট মেনু ব্লক করুন"
+
+#: includes/settings.php:62
+msgid "Disables the right-click menu for copying or inspecting."
+msgstr "কপি বা পরিদর্শনের জন্য ডান-ক্লিক মেনু নিষিদ্ধ করে।"
+
+#: includes/settings.php:67
+msgid "Save Settings"
+msgstr "সেটিংস সংরক্ষণ করুন"
+
+#: includes/settings.php:92
+msgid "Enjoying CopyBlocker Pro? Support the developer with a coffee!"
+msgstr "কপিব্লকার প্রো উপভোগ করছেন? ডেভেলপারকে একটি কফি দিয়ে সমর্থন করুন!"
+
+#: includes/settings.php:94
+msgid "Buy Me a Coffee"
+msgstr "আমাকে একটি কফি কিনুন"

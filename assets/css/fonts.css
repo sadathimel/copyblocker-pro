@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../css/fonts/Roboto-Italic-VariableFont_wdth,wght.ttf') format('woff2'),
+        url('../css/fonts/Roboto-VariableFont_wdth,wght.ttf') format('woff');
+}
+
+body {
+    font-family: 'Press Start 2P', monospace;
+}
