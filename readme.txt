@@ -1,4 +1,13 @@
-=== CopyBlocker Pro === Contributors: sadathimel Tags: text lock, disable copy, retro, security, multilingual Requires at least: 5.0 Tested up to: 6.8 Stable tag: 1.0.0 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html
+=== CopyBlocker Pro === 
+Contributors: sadathimel 
+Plugin URI: https://github.com/sadathimel/retro-version-manager
+Tags: text lock, disable copy, retro, security, multilingual 
+Requires at least: 6.3 
+Tested up to: 6.8
+Stable tag: 1.0.1
+Requires PHP: 7.4 
+License: GPLv2 or later 
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A CopyBlocker plugin to disable text selection, copying, pasting, and inspecting on your WordPress site.
 
@@ -40,12 +49,25 @@ Navigate to Settings > CopyBlocker Pro to configure restrictions.
 If you like this plugin, please consider supporting me by [Buying Me a Coffee](https://buymeacoffee.com/5adat).
 
 
-== Changelog == = 1.0.0 =
+== Changelog == = 1.0.1 =
 
+Removed unnecessary load_plugin_textdomain() call for WordPress.org compatibility.
+
+
+
+Escaped status message output to prevent potential XSS vulnerabilities.
+
+= 1.0.1 =
 
 Initial release with controls for disabling text selection, copying, pasting, select all, developer tools, and context menu.
 
 
 Modern retro settings UI with tooltips and translation support.
 
-== Upgrade Notice == = 1.0.0 = Initial release of CopyBlocker Pro with comprehensive content protection features.
+== Upgrade Notice == = 1.0.1 = 
+
+Improved security and WordPress.org compatibility with translation handling and output escaping.
+
+= 1.0.1 = 
+
+Initial release of CopyBlocker Pro with comprehensive content protection features.

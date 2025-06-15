@@ -50,7 +50,7 @@ function copyblocker_pro_settings_page() {
     ?>
     <div class="wrap copyblocker-pro-wrap">
         <h1><?php echo esc_html__('CopyBlocker Pro', 'copyblocker-pro'); ?></h1>
-        <?php echo $status_message; ?>
+        <?php echo wp_kses_post($status_message); ?>
         <form method="post" action="options.php">
             <?php
             settings_fields('copyblocker_pro_settings_group');
@@ -102,7 +102,7 @@ function copyblocker_pro_settings_page() {
         </form>
         <div class="copyblocker-pro-support">
             <p><?php echo esc_html__('Enjoying CopyBlocker Pro? Support the developer with a coffee!', 'copyblocker-pro'); ?></p>
-            <a href="https://buymeacoffee.com/5adat" target="_blank" rel="noopener noreferrer" class="coffee-button copyblocker-pro-bmc-button">
+            <a href="https://buymeacoffee.com/5adat" target="_blank" rel="noopener noreferrer" class="copyblocker-pro-bmc-button">
                 <?php echo esc_html__('Buy Me a Coffee', 'copyblocker-pro'); ?>
             </a>
         </div>
@@ -115,8 +115,8 @@ function copyblocker_pro_admin_styles($hook) {
     if ($hook !== 'settings_page_copyblocker-pro') {
         return;
     }
-    wp_enqueue_style('copyblocker-pro-admin', plugins_url('assets/css/admin.css', dirname(__FILE__)), [], '1.0.0');
-    wp_enqueue_style('copyblocker-pro-font', plugins_url('assets/css/fonts.css', dirname(__FILE__)), [], '1.0.0');
+    wp_enqueue_style('copyblocker-pro-admin', plugins_url('assets/css/admin.css', dirname(__FILE__)), [], '1.0.1');
+    wp_enqueue_style('copyblocker-pro-font', 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap', [], null);
 }
 add_action('admin_enqueue_scripts', 'copyblocker_pro_admin_styles');
 ?>

@@ -2,9 +2,9 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: CopyBlocker Pro 1.0.0\n"
+"Project-Id-Version: CopyBlocker Pro 1.0.1\n"
 "Report-Msgid-Bugs-To: sadathossen.cse@gmail.com\n"
-"POT-Creation-Date: 2025-06-01 14:00+0600\n"
+"POT-Creation-Date: 2025-06-14 16:20+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: sadathimel <sadathossen.cse@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../css/fonts/Roboto-Italic-VariableFont_wdth,wght.ttf') format('woff2'),
-        url('../css/fonts/Roboto-VariableFont_wdth,wght.ttf') format('woff');
+    src: url('../css/fonts/Roboto-Italic-VariableFont_wdthWght.ttf') format('woff2'),
+        url('../css/fonts/Roboto-VariableFont_wdthWght.ttf') format('woff');
 }
 
 body {

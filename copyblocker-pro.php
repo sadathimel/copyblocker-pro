@@ -3,7 +3,7 @@
  * Plugin Name: CopyBlocker Pro
  * Plugin URI: https://github.com/sadathimel/copyblocker-pro
  * Description: A retro-styled plugin to disable text selection, copying, pasting, and inspecting on your WordPress site.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: sadathimel
  * Author URI: https://github.com/sadathimel
  * Author Email: sadathossen.cse@gmail.com
@@ -19,12 +19,6 @@
 if (!defined('ABSPATH')) {
     exit;
 }
-
-// Load plugin translations
-function copyblocker_pro_load_textdomain() {
-    load_plugin_textdomain('copyblocker-pro', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-}
-add_action('plugins_loaded', 'copyblocker_pro_load_textdomain');
 
 // Include settings
 require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
@@ -42,8 +36,8 @@ function copyblocker_pro_enqueue_scripts() {
     ];
 
     if (array_sum(array_slice($settings, 0, 5))) {
-        wp_enqueue_style('copyblocker-pro-frontend', plugins_url('assets/css/frontend.css', __FILE__), [], '1.0.0');
-        wp_enqueue_script('copyblocker-pro-content', plugins_url('assets/js/content.js', __FILE__), [], '1.0.0', true);
+        wp_enqueue_style('copyblocker-pro-frontend', plugins_url('assets/css/frontend.css', __FILE__), [], '1.0.1');
+        wp_enqueue_script('copyblocker-pro-content', plugins_url('assets/js/content.js', __FILE__), [], '1.0.1', true);
         wp_localize_script('copyblocker-pro-content', 'copyblocker_pro', $settings);
     }
 }
